@@ -1,0 +1,33 @@
+{
+  "name": "ts-graphql",
+  "version": "1.0.0",
+  "description": "A simple typscript and graphql api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Typescript",
+    "Graphql",
+    "node",
+    "javascript"
+  ],
+  "author": "Lone Wolf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^17.0.24",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^9.7.1",
+    "apollo-server-express": "^3.6.7",
+    "class-validator": "^0.13.2",
+    "express": "^4.17.3",
+    "graphql": "^15.8.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
